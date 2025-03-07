@@ -9,8 +9,8 @@ Aggregate guarantees consistency between items inside its boundary (transactiona
 This example may not be thought as Aggregate in most strict sense of DDD pattern as
 interface doesn't represent "one thing" conceptually but is logically kind of
 "collection" of things.
-Anyway it shows how one object can serve as "root" or "gateway" for accessign data inside it
-and also guarantees that view to data is always consitent from outside.
+Anyway it shows how one object can serve as "root" or "gateway" for accessing data inside it
+and also guarantees that view to data is always consistent from outside.
 
 ## Data storing inside the aggregate
 In this example data is stored to several "collections" (all included in one map/consistent variable in memory).
@@ -25,7 +25,7 @@ One user can be part of many chat groups and chat group can have many users.
 Aggregate interface provides ways to:
 
 * write users and groups
-* add users to goups
+* add users to groups
 * read users and groups
 * read users of each group
 * read groups of each user
